@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Streamlit secrets (do not commit real keys)
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
