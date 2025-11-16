@@ -35,7 +35,7 @@ GROQ_API_KEY=YOUR_GROQ_API_KEY
 GROQ_API_KEY = "gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 - Read order: `st.secrets["GROQ_API_KEY"]` first, fallback to `os.getenv("GROQ_API_KEY")` (`c:\Users\wugui1314\Desktop\Myitems\202511moth\9\app.py:100-103`)
-- `.env` loading: `load_dotenv()` (`c:\Users\wugui1314\Desktop\Myitems\202511moth\9\app.py:6-9`)
+- `.env` loading: `load_dotenv()` 
 
 ## Local Setup (optional)
 - Install dependencies:
@@ -60,8 +60,8 @@ streamlit run app.py
 - If strict JSON is returned, it renders structured JSON; otherwise shows the raw output for inspection (`c:\Users\wugui1314\Desktop\Myitems\202511moth\9\app.py:136-144`)
 
 ## Internationalization
-- UI languages: English / 中文 / 日本語 (`c:\Users\wugui1314\Desktop\Myitems\202511moth\9\app.py:11-67`)
-- Output language: 日本語 / English (controls model response, `c:\Users\wugui1314\Desktop\Myitems\202511moth\9\app.py:78`, `c:\Users\wugui1314\Desktop\Myitems\202511moth\9\app.py:117`)
+- UI languages: English / 中文 / 日本語 
+- Output language: 日本語 / English (controls model response)
 
 ## Security
 - Do not commit real keys to GitHub; `.gitignore` ignores `.env` and `.streamlit/secrets.toml`
